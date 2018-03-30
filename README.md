@@ -24,6 +24,12 @@ First clone my repos.
 **WARNING:** there are costs when running on PWS.  Very minimal though.
 - Run mvn clean install for simple-service
 - Run mvn clean install for simple-gateway
+- In the PWS Marketplace choose "Config Server" and name the instance "config-server"
+    * There is a configuration that needs to be done only once.  I will leave that exercise to you.
+    * http://docs.pivotal.io/spring-cloud-services/1-5/common/config-server/configuring-with-git.html will get you started
+- Wait a bit for the service to install
+- In the PWS Marketplace choose "Service Registry" and name the instance "service-registry"
+- Wait a bit for the service to install
 - Push simple-service to PWS using one of these methods
     * cf cli
     * STS integration
